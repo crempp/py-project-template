@@ -3,6 +3,7 @@ PROJECT NAME
 project description
 
 To setup for your project
+
 1. Rename the directory project_name with your directory name.
 2. Find and replace all instances of "project_name" with the name you choose in step 1.
 3. Rename the directory project_dir with your directory name.
