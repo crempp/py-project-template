@@ -1,0 +1,23 @@
+<h2>Welcome to PROJECT_NAME {{ user.username }}</h2>
+
+<p>
+  Your account for {{ user.email }} is waiting. Please visit the link
+  below to activate your account and begin using the magnificent PROJECT_NAME.
+</p>
+
+<p>
+  <a href="http://{{ site.domain }}{% url 'registration_activate' activation_key %}">Click here to activate</a>
+  - or copy and paste this link in you browser
+  http://{{ site.domain }}{% url 'registration_activate' activation_key %}
+</p>
+
+<p>
+  This link will only be valid for {{ expiration_days }} day{{ expiration_days|pluralize }}.
+</p>
+
+
+<p>
+  <a href="http://{{ site.domain }}">http://{{ site.domain }}</a>
+</p>
+
+

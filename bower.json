@@ -1,0 +1,27 @@
+{
+  "name": "PROJECT_NAME",
+  "version": "0.0.1",
+  "authors": [
+    "Chad Rempp <chad@blueearth.net>"
+  ],
+  "description": "PROJECT_DESCRIPTION",
+  "main": "src/coffee/main.coffee",
+  "license": "Proprietary",
+  "homepage": "http://lapinlabs.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "1.8.3",
+    "bootstrap": "~3.3.4",
+    "normalize": "1.0.4",
+    "backbone": "1.1.2",
+    "fontawesome": "4.3.0",
+    "smartmenus": "~0.9.7"
+  }
+}

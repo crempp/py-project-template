@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+{% load bootstrap3 %}
+
+{% block page_block %}
+  <div class="col-lg-6 center-block">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Registration</h3>
+      </div>
+      <div class="panel-body">
+        <div class="input-group">
+          <form action="{% url 'registration_register' %}" method="post">
+            {% csrf_token %}
+            {% bootstrap_form form layout='vertical' %}
+            <input class="btn btn-default" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

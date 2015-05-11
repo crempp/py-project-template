@@ -1,0 +1,9 @@
+Welcome to PROJECT_NAME {{ user.username }}
+
+Your account for {{ user.email }} is waiting. Please visit the link below to activate your account and begin using the magnificent PROJECT_NAME.
+
+Copy and paste this link in you browser http://{{ site.domain }}{% url 'registration_activate' activation_key %}
+
+This link will only be valid for {{ expiration_days }} day{{ expiration_days|pluralize }}.
+
+http://{{ site.domain }}
