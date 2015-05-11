@@ -5,6 +5,7 @@ db.sqlite3
 .sass-cache
 .vagrant
 env
+bower_components
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
